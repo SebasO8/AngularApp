@@ -1,0 +1,16 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.icon{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    margin-right: 10px;
+}
+
+.icon-size{
+    font-size: 30px;
+}
