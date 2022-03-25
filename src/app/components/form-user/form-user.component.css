@@ -1,0 +1,36 @@
+.formUser-section{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.inputsContainer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputWidth{
+    width: 48%;
+}
+
+.buttonsContainer{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 48%;
+}

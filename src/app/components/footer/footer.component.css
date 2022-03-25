@@ -1,0 +1,9 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.footer{
+    height: 11.5vh;
+    display: flex;
+    align-self: self-end;
+}

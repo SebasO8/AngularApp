@@ -1,3 +1,10 @@
 <div class="user-section">
-    <app-form-user></app-form-user>
+    <app-form-user (submitEvent)="submit($event)" (queryEvent)="query($event)" ></app-form-user>
+    <div class="query">
+        <h1>Consulta</h1>
+        <p>{{ id }}</p>
+        <p>{{name}}</p>
+        <p>{{lastName}}</p>
+        <p>{{age}}</p>
+    </div>
 </div>

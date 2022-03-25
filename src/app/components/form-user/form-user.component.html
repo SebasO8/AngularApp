@@ -1,1 +1,30 @@
-<p>form-user works!</p>
+<div class="formUser-section">
+    <form  class="form">
+        <img src="../../../assets/img/programmer.png" alt="" class="img">
+
+        <div class="inputsContainer">
+            <mat-form-field class="inputWidth" appearance="fill">
+                <mat-label>Identificación</mat-label>
+                <input [(ngModel)]="id" type="text" name="id"  id="inputId" matInput>
+            </mat-form-field>
+            <mat-form-field class="inputWidth" appearance="fill">
+                <mat-label>nombre</mat-label>
+                <input [(ngModel)]="name" type="text" name="name" id="inputName" matInput>
+            </mat-form-field>
+        </div>
+        <div class="inputsContainer">
+            <mat-form-field class="inputWidth" appearance="fill">
+                <mat-label>Apellido</mat-label>
+                <input [(ngModel)]="lastName" type="text" name="lastName"  id="inputLastName" matInput>
+            </mat-form-field>
+            <mat-form-field class="inputWidth" appearance="fill">
+                <mat-label>Edad</mat-label>
+                <input [(ngModel)]="age" type="number" name="age"  id="inputAge" matInput>
+            </mat-form-field>
+        </div>
+        <div class="buttonsContainer">
+            <button mat-flat-button class="btn" color="primary" (click)="onClickQuery()">Consultar</button>
+            <button mat-flat-button class="btn" color="primary" (click)="onClickSubmit()">Enviar</button>
+        </div>
+    </form>
+</div>
